@@ -1,6 +1,6 @@
-import { serve } from "std/http/mod.ts"
-import { Hono } from "hono"
-import { render } from "resvg"
+import { serve } from "https://deno.land/std@0.176.0//http/mod.ts"
+import { Hono } from "https://deno.land/x/hono@v2.7.5/mod.ts"
+import { render } from "https://deno.land/x/resvg_wasm/mod.ts"
 
 const app = new Hono()
 app.get("/health", c => c.text("ok"))
