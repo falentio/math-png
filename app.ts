@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.176.0//http/mod.ts"
+import { serve } from "https://deno.land/std@0.176.0/http/mod.ts"
 import { Hono } from "https://deno.land/x/hono@v2.7.5/mod.ts"
 import { render } from "https://deno.land/x/resvg_wasm/mod.ts"
 
