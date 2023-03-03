@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=./ app.ts"
+  },
+  "imports": {
+    "~/": "./",
+    "std/": "https://deno.land/std@0.176.0/",
+    "resvg": "https://deno.land/x/resvg_wasm/mod.ts",
+    "hono": "https://deno.land/x/hono@v2.7.5/mod.ts"
+  }
+}
